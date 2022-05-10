@@ -1,9 +1,8 @@
 package AbstractFactory;
 
-public interface Slime {
-	boolean isAlive();
-	void attack();
-	void defend();
-	void heal();
-	void dodge();
+public abstract class Slime extends Enemy {
+	public Slime(int health, int attack, int defense) {
+		super(health, attack, defense);
+	}
+	public abstract void jumpAttack();
 }

@@ -1,9 +1,9 @@
 package AbstractFactory;
 
-public interface Skeleton {
-	boolean isAlive();
-	void attack();
-	void defend();
-	void heal();
-	void dodge();
+public abstract class Skeleton extends Enemy {
+	public Skeleton(int health, int attack, int defense) {
+		super(health, attack, defense);
+	}
+	
+	public abstract void flameArrow();
 }

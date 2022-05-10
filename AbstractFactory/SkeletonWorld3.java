@@ -1,11 +1,16 @@
 package AbstractFactory;
 
-public class SkeletonWorld3 implements Skeleton {
-	int health = 0;
-	int attack = 0;
+public class SkeletonWorld3 extends Skeleton{
 	
-	public boolean isAlive() {
-		if(health > 0) return true;
-		else return false;
+	SkeletonWorld3(){
+		super(0,0,0);
+	}
+	
+	public void flameArrow() {
+
+	}
+
+	public void specialAttack() {
+		flameArrow();
 	}
 }

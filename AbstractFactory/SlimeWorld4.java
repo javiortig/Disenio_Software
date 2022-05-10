@@ -1,11 +1,16 @@
 package AbstractFactory;
 
-public class SlimeWorld4 implements Slime {
-	int health = 0;
-	int attack = 0;
+public class SlimeWorld4 extends Slime {
 	
-	public boolean isAlive() {
-		if(health > 0) return true;
-		else return false;
+	SlimeWorld4(){
+		super(0,0,0);
+	}
+
+	public void jumpAttack() {
+		
+	}
+
+	public void specialAttack() {
+		jumpAttack();
 	}
 }
