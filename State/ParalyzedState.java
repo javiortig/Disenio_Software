@@ -1,8 +1,12 @@
 package State;
+
+import Game.Enemy;
+import Game.Player;
+
 public class ParalyzedState extends State
 {
 	private double failureProbability = 0.5;
-	public final static States state = States.PARALYZED;
+	public final static StateType state = StateType.PARALYZED;
 	
 	public ParalyzedState(Player player)
 	{
@@ -18,17 +22,23 @@ public class ParalyzedState extends State
 	}
 	
 	@Override
-	public void attack(Enemy enemy)
+	public StateResult attack()
 	{
 		double random = Math.random();
 		if(random > failureProbability)
 		{
-			enemy.takeDamage(player.getAttack());
+			return StateResult.NORMAL;
 		}
 		else
 		{
 			System.out.println("¡Player no puede moverse!");
+			return StateResult.NOTHING;
 		}
+	}
+	
+	@Override
+	public void endTurn()
+	{
 		if(--remainingTurns <= 0)
 		{
 			player.setNextState();

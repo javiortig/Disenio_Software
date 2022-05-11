@@ -1,7 +1,10 @@
 package State;
+
+import Game.Player;
+
 public class HealthyState extends State
 {
-	public final static States state = States.HEALTHY;
+	public final static StateType state = StateType.HEALTHY;
 	
 	public HealthyState(Player player)
 	{
@@ -15,8 +18,14 @@ public class HealthyState extends State
 	}
 	
 	@Override
-	public void attack(Enemy enemy)
+	public StateResult attack()
 	{
-		enemy.takeDamage(player.getAttack());
+		return StateResult.NORMAL;
+	}
+	
+	@Override
+	public void endTurn()
+	{
+		
 	}
 }

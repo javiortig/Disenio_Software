@@ -1,8 +1,12 @@
 package State;
+
+import Game.Enemy;
+import Game.Player;
+
 public class PoisonedState extends State
 {
 	private double multiplier = 0.05;
-	public final static States state = States.POISONED;
+	public final static StateType state = StateType.POISONED;
 	
 	public PoisonedState(Player player)
 	{
@@ -18,10 +22,18 @@ public class PoisonedState extends State
 	}
 	
 	@Override
-	public void attack(Enemy enemy)
+	public StateResult attack()
 	{
-		enemy.takeDamage(player.getAttack());
+		return StateResult.NORMAL;
+		
+	}
+	
+	@Override
+	public void endTurn()
+	{
+		System.out.println("El veneno debilita el cuerpo de Player.");
 		player.takeDamage((int)Math.round(player.getHealth() * multiplier));
+		
 		if(--remainingTurns <= 0)
 		{
 			player.setNextState();

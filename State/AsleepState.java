@@ -1,7 +1,8 @@
 package State;
+import Game.Player;
 public class AsleepState extends State
 {
-	public final static States state = States.ASLEEP;
+	public final static StateType state = StateType.ASLEEP;
 	
 	public AsleepState(Player player)
 	{
@@ -17,10 +18,17 @@ public class AsleepState extends State
 	}
 	
 	@Override
-	public void attack(Enemy enemy)
+	public StateResult attack()
 	{
-		System.out.println("Player está dormido.");
-		if(--remainingTurns <= 0)
+		System.out.println("Player está dormido. Zzz...");
+		return StateResult.NOTHING;
+	}
+	
+	@Override
+	public void endTurn()
+	{
+		
+		if (--remainingTurns <= 0)
 		{
 			player.setNextState();
 		}

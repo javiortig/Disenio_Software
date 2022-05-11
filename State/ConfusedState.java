@@ -1,8 +1,12 @@
 package State;
+
+import Game.Enemy;
+import Game.Player;
+
 public class ConfusedState extends State
 {
 	private double selfAttackProbability = 0.5;
-	public final static States state = States.CONFUSED;
+	public final static StateType state = StateType.CONFUSED;
 	
 	public ConfusedState(Player player)
 	{
@@ -18,19 +22,23 @@ public class ConfusedState extends State
 	}
 	
 	@Override
-	public void attack(Enemy enemy)
+	public StateResult attack()
 	{
 		double random = Math.random();
 		if(random < selfAttackProbability)
 		{
 			System.out.println("¡Player está tan confuso que se hirió a sí mismo!");
-			player.takeDamage(player.getAttack());
+			return StateResult.SELF;
 		}
 		else
 		{
-			enemy.takeDamage(player.getAttack());
+			return StateResult.NORMAL;
 		}
-		
+	}
+	
+	@Override
+	public void endTurn()
+	{
 		if(--remainingTurns <= 0)
 		{
 			player.setNextState();

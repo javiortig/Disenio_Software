@@ -1,5 +1,7 @@
 package State;
 
+import Game.Player;
+
 public abstract class State
 {
 	protected Player player;
@@ -12,14 +14,15 @@ public abstract class State
 	}
 	
 	public abstract State nextState();
-	public abstract void attack(Enemy enemy);
+	public abstract StateResult attack();
+	public abstract void endTurn();
 	
-	protected void print(States state)
+	protected void print(StateType state)
 	{
 		System.out.println("Player estará " + stateEnumToString(state) + " por " + remainingTurns + " turnos.");
 	}
 	
-	private String stateEnumToString(States state)
+	private String stateEnumToString(StateType state)
 	{
 		switch(state)
 		{
