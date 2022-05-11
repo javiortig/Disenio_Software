@@ -1,7 +1,10 @@
 package AbstractFactory;
 
-public interface EnemyFactory {
-	Slime createSlime();
-	Skeleton createSkeleton();
-	Zombie createZombie();
+public abstract class EnemyFactory {
+	public abstract Slime createSlime();
+	public abstract Skeleton createSkeleton();
+	public abstract Zombie createZombie();
+	public final Enemy randomEnemy() {
+		
+	}
 }

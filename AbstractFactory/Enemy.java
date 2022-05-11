@@ -1,8 +1,11 @@
 package AbstractFactory;
 
+import EntityStrategies.Strategy;
 import java.util.Random;
 
 public abstract class Enemy {
+	protected Strategy strategy;
+	
 	private int health;
 	private int attack;
 	private float defense;

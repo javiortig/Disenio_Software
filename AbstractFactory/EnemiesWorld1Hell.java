@@ -1,6 +1,6 @@
 package AbstractFactory;
 
-public class EnemiesWorld1Hell implements EnemyFactory {
+public class EnemiesWorld1Hell extends EnemyFactory {
 
 	public Slime createSlime() {
 		return new SlimeWorld1();
