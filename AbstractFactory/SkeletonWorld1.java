@@ -1,16 +1,18 @@
 package AbstractFactory;
 
+import State.StateType;
+
 public class SkeletonWorld1 extends Skeleton{
 	
 	SkeletonWorld1(){
 		super(0,0,0);
 	}
 	
-	public void flameArrow() {
-
+	public StateType elementArrow() {
+		return StateType.BURNED;
 	}
 
-	public void specialAttack() {
-		flameArrow();
+	public StateType specialAttack() {
+		return elementArrow();
 	}
 }

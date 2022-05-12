@@ -1,16 +1,18 @@
 package AbstractFactory;
 
+import State.StateType;
+
 public class SlimeWorld2 extends Slime {
 	
 	SlimeWorld2(){
 		super(0,0,0);
 	}
 
-	public void jumpAttack() {
-		
+	public StateType jumpAttack() {
+		return StateType.CONFUSED;
 	}
 
-	public void specialAttack() {
-		jumpAttack();
+	public StateType specialAttack() {
+		return jumpAttack();
 	}
 }

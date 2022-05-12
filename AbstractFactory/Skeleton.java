@@ -1,6 +1,7 @@
 package AbstractFactory;
 
 import EntityStrategies.BalancedStrategy;
+import State.*;
 
 public abstract class Skeleton extends Enemy {
 	public Skeleton(int health, int attack, int defense) {
@@ -8,5 +9,5 @@ public abstract class Skeleton extends Enemy {
 		this.strategy = new BalancedStrategy();
 	}
 	
-	public abstract void flameArrow();
+	public abstract StateType elementArrow();
 }

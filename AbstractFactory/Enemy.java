@@ -1,6 +1,8 @@
 package AbstractFactory;
 
 import EntityStrategies.Strategy;
+import State.*;
+
 import java.util.Random;
 
 public abstract class Enemy {
@@ -26,13 +28,7 @@ public abstract class Enemy {
 	}
 	
 	public final void takeDamage(int damage) {
-		if(this.defending) {
-			this.health -= damage*this.defense;
-			this.defending = false;
-		}else if(!this.dodging){
-			this.health -= damage;
-		}
-		this.dodging = false;
+		this.health -= damage;
 	}
 	
 	public final int attack() {
@@ -50,5 +46,17 @@ public abstract class Enemy {
 		}
 	}
 	
-	public abstract void specialAttack();
+	public float getDefense() {
+		return this.defense;
+	}
+	
+	public boolean getDefending() {
+		return this.defending;
+	}
+	
+	public boolean getDodging() {
+		return this.dodging;
+	}
+	
+	public abstract StateType specialAttack();
 }
