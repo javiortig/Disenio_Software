@@ -1,5 +1,8 @@
 package Singleton;
 
+import Game.Player;
+import Game.Enemy;
+
 public class Singleton {
 	
 	private static Singleton singleton;
