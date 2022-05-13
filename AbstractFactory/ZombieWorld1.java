@@ -5,7 +5,7 @@ import State.StateType;
 public class ZombieWorld1 extends Zombie {
 	
 	ZombieWorld1(){
-		super(0,0,0);
+		super(20,4,0.6f);
 	}
 
 	public StateType heavyBite() {

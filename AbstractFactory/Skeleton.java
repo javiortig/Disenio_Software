@@ -4,7 +4,7 @@ import EntityStrategies.BalancedStrategy;
 import State.*;
 
 public abstract class Skeleton extends Enemy {
-	public Skeleton(int health, int attack, int defense) {
+	public Skeleton(int health, int attack, float defense) {
 		super(health, attack, defense);
 		this.strategy = new BalancedStrategy();
 	}

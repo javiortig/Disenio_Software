@@ -5,7 +5,7 @@ import State.StateType;
 public class SkeletonWorld4 extends Skeleton{
 	
 	SkeletonWorld4(){
-		super(0,0,0);
+		super(40,8,0.7f);
 	}
 	
 	public StateType elementArrow() {

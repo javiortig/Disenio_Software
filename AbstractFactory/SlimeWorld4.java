@@ -5,7 +5,7 @@ import State.StateType;
 public class SlimeWorld4 extends Slime {
 	
 	SlimeWorld4(){
-		super(0,0,0);
+		super(30,12,0.6f);
 	}
 
 	public StateType jumpAttack() {
