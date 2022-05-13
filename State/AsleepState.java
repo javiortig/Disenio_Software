@@ -1,5 +1,5 @@
 package State;
-import Game.Player;
+import player.*;
 public class AsleepState extends State
 {
 	public final static StateType state = StateType.ASLEEP;

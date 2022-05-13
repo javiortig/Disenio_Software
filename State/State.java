@@ -1,6 +1,6 @@
 package State;
 
-import Game.Player;
+import player.*;
 
 public abstract class State
 {

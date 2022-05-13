@@ -1,7 +1,6 @@
 package State;
 
-import Game.Enemy;
-import Game.Player;
+import player.*;
 
 public class FrozenState extends State
 {
