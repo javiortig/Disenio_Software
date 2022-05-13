@@ -1,8 +1,8 @@
 package Decorator;
 
-public abstract class AttackDecorator implements Attack {
+public class AttackDecorator implements Attack {
 	
-	public Attack attack;
+	private Attack attack;
 	
 	public AttackDecorator(Attack attack) {
 		this.attack = attack;
@@ -14,6 +14,10 @@ public abstract class AttackDecorator implements Attack {
 	
 	public void setAttack(Attack attack) {
 		this.attack = attack;
+	}
+	
+	public String getAttackType() {
+		return attack.getAttackType();
 	}
 
 }
