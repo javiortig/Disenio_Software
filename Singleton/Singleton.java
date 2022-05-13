@@ -19,11 +19,10 @@ public class Singleton {
 	}
 	
 	// Métodos
-	public int calcularDamage(int daño, int defensa, boolean defendiendo) {
-		int damage;
-		if(defendiendo) damage = daño - defensa;
-		else damage = daño;
-		return damage;
+	public int calcularDamage(int daño, int defensa, boolean defendiendo, boolean dodging) {
+		if(dodging) return 0;
+		else if(defendiendo) return daño*defensa;
+		else return daño;
 	}
 
 	// Podemos sobrescribr el método clone, para que no se pueda clonar
