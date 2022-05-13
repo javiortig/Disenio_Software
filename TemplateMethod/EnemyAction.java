@@ -7,23 +7,23 @@ public abstract class EnemyAction {
 	protected int dodgeProbability;
 	
 	public final Action getEnemyAction() {
-		Action enemyAction = Action.SPECIAL_ATACK;
+		setProbabilitys();
 		Random r = new Random();
 		int random = r.nextInt(100);
 		int p = atackProbability;
 		if(random < p) {
-			enemyAction = Action.ATACK;
+			return Action.ATACK;
 		}
 		p += defendProbability;
 		if(random < p) {
-			enemyAction = Action.DEFEND; 
+			return Action.DEFEND; 
 		}
 		p += dodgeProbability;
 		if(random < p) {
-			enemyAction = Action.DODGE; 
+			return Action.DODGE; 
 		}
-		return enemyAction;
+		return Action.SPECIAL_ATACK;
 	}
 	
-	public abstract void setProbabitys();
+	public abstract void setProbabilitys();
 }

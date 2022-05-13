@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="AbstractFactory.EnemiesWorld1Hell" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/EnemiesWorld1Hell.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4325" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="AbstractFactory.EnemiesWorld2Land" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/EnemiesWorld2Land.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4770" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="AbstractFactory.EnemiesWorld3Heaven" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/EnemiesWorld3Heaven.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4547" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="AbstractFactory.EnemiesWorld4Void" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/EnemiesWorld4Void.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4986" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="AbstractFactory.Enemy" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/Enemy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1787" y="689"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="TemplateMethod.EnemyAction" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/TemplateMethod/EnemyAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2615" y="1737"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="AbstractFactory.EnemyFactory" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/EnemyFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4379" y="196"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="AbstractFactory.Skeleton" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/Skeleton.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="105" width="174" x="1546" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="java.rmi.server.Skeleton" project="Actividad_facade" 
+    file="C:/Users/Aitor/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/lib/jrt-fs.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="106" width="271" x="2422" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="AbstractFactory.SkeletonWorld1" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SkeletonWorld1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="1988" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="AbstractFactory.SkeletonWorld2" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SkeletonWorld2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="1773" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="AbstractFactory.SkeletonWorld3" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SkeletonWorld3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="2203" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="AbstractFactory.SkeletonWorld4" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SkeletonWorld4.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="2418" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="AbstractFactory.Slime" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/Slime.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="105" width="163" x="1343" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="AbstractFactory.SlimeWorld1" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SlimeWorld1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="1343" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="AbstractFactory.SlimeWorld2" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SlimeWorld2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="913" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="AbstractFactory.SlimeWorld3" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SlimeWorld3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="1128" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="AbstractFactory.SlimeWorld4" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/SlimeWorld4.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="1558" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="AbstractFactory.Zombie" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/Zombie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="105" width="152" x="698" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="AbstractFactory.ZombieWorld1" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/ZombieWorld1.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="483" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="AbstractFactory.ZombieWorld2" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/ZombieWorld2.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="53" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="AbstractFactory.ZombieWorld3" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/ZombieWorld3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="698" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="AbstractFactory.ZombieWorld4" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/AbstractFactory/ZombieWorld4.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="175" x="268" y="1248"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="Decorator.Attack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/Attack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3291" y="869"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="25" language="java" name="Decorator.AttackDecorator" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/AttackDecorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="142" width="166" x="2556" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="Decorator.BodyAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/BodyAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3220" y="1394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="Decorator.BowAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/BowAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3025" y="1394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="Decorator.CurarAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/CurarAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3805" y="1394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="Decorator.DefenderAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/DefenderAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3415" y="1394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="TemplateMethod.DefensiveEnemyAction" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/TemplateMethod/DefensiveEnemyAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1985" y="2190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="EntityStrategies.DefensiveStrategy" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/EntityStrategies/DefensiveStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="224" x="833" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="Decorator.EsquivarAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/EsquivarAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3610" y="1394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="Decorator.FireAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/FireAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2384" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="Decorator.FrozenAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/FrozenAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2781" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="State.FrozenState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/FrozenState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3143" y="2125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="Decorator.PoisonedAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/PoisonedAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1990" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="State.PoisonedState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/PoisonedState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4948" y="2133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="Decorator.PowerfullAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/PowerfullAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2583" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="Decorator.SwordAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/SwordAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2830" y="1394"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="Decorator.WeakAttack" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Decorator/WeakAttack.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2189" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="EntityStrategies.AggressiveStrategy" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/EntityStrategies/AggressiveStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="224" x="305" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="TemplateMethod.BalancedEnemyAction" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/TemplateMethod/BalancedEnemyAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2638" y="2190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="EntityStrategies.BalancedStrategy" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/EntityStrategies/BalancedStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="224" x="41" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="EntityStrategies.strategyManager" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/EntityStrategies/strategyManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="228" x="1097" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="45" language="java" name="EntityStrategies.Strategy" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/EntityStrategies/Strategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="224" x="434" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="46" language="java" name="EntityStrategies.PassiveStrategy" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/EntityStrategies/PassiveStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="224" x="569" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="facade.GameController" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/facade/GameController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="340" width="206" x="3190" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="facade.Batalla" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/facade/Batalla.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="104" x="494" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="49" language="java" name="facade.IGameController" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/facade/IGameController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="141" x="1365" y="417"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="50" language="java" name="facade.Comienzo" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/facade/Comienzo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="130" x="1796" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="player.Player" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/player/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3900" y="743"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="Singleton.Singleton" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/Singleton/Singleton.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="209" x="1092" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="State.State" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/State.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4125" y="1158"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="State.BurnedState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/BurnedState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4043" y="2125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="State.AsleepState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/AsleepState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4649" y="2116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="State.HealthyState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/HealthyState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3437" y="2116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="State.ConfusedState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/ConfusedState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3741" y="2125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="State.ParalyzedState" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/State/ParalyzedState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4347" y="2125"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="TemplateMethod.AgresiveEnemyAction" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/TemplateMethod/AgresiveEnemyAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2419" y="2190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="TemplateMethod.PassiveEnemyAction" project="Disenio_Software-main" 
+    file="/Disenio_Software-main/TemplateMethod/PassiveEnemyAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2204" y="2190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="61">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="62" name="enemyAction">        
+        <position height="0" width="0" x="-660" y="1232"/>      
+      </attribute>      
+      <multiplicity id="63" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-660" y="1232"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="64">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="68">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="69">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="70" name="strategy">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="71" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="72">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <association id="73">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="74" name="jugador">        
+        <position height="0" width="0" x="184" y="48"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="0" width="0" x="184" y="48"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="77" name="attack">        
+        <position height="0" width="0" x="-1572" y="-188"/>      
+      </attribute>      
+      <multiplicity id="78" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1572" y="-188"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="79">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="81">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="82">    
+    <end type="SOURCE" refId="43"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <generalization id="83">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="84">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <association id="87">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="88" name="enemigo">        
+        <position height="0" width="0" x="152" y="76"/>      
+      </attribute>      
+      <multiplicity id="89" minimum="0" maximum="1">        
+        <position height="0" width="0" x="152" y="76"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="90">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="91">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="92">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <association id="93">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="94" name="strategy">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="95" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="96">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <generalization id="97">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="98">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <generalization id="99">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <generalization id="101">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="102">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="103">    
+    <end type="SOURCE" refId="53" navigable="false">      
+      <attribute id="104" name="player">        
+        <position height="0" width="0" x="184" y="48"/>      
+      </attribute>      
+      <multiplicity id="105" minimum="0" maximum="1">        
+        <position height="0" width="0" x="184" y="48"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="51" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="106">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="107">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <generalization id="108">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <realization id="109">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="110">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <generalization id="111">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <generalization id="112">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <generalization id="113">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="114">    
+    <bendpoint x="4170" y="417"/>    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="115" name="ataque">        
+        <position height="0" width="0" x="-1572" y="-188"/>      
+      </attribute>      
+      <multiplicity id="116" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-1572" y="-188"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="117">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <generalization id="118">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <generalization id="119">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="120">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="121">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <realization id="122">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <realization id="123">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="45"/>  
+  </realization>  
+  <realization id="124">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="49"/>  
+  </realization>  
+  <association id="125">    
+    <end type="SOURCE" refId="51" navigable="false">      
+      <attribute id="126" name="state">        
+        <position height="0" width="0" x="376" y="48"/>      
+      </attribute>      
+      <multiplicity id="127" minimum="0" maximum="1">        
+        <position height="0" width="0" x="376" y="48"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="53" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="128">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="129">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="130">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </generalization>  
+  <generalization id="131">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="132">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="133" name="mundo">        
+        <position height="0" width="0" x="328" y="-300"/>      
+      </attribute>      
+      <multiplicity id="134" minimum="0" maximum="1">        
+        <position height="0" width="0" x="328" y="-300"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="136" name="decorador">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="137" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="138">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <generalization id="139">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <generalization id="140">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="53"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
