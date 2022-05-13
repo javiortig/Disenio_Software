@@ -13,6 +13,7 @@ public class SkeletonWorld2 extends Skeleton{
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Flecha Paralizante");
 		return elementArrow();
 	}
 }

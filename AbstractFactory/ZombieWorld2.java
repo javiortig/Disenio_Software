@@ -13,6 +13,7 @@ public class ZombieWorld2 extends Zombie {
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Mordisco Envenenado");
 		return heavyBite();
 	}
 }

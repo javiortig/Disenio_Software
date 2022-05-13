@@ -13,6 +13,7 @@ public class SkeletonWorld3 extends Skeleton{
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Flecha Helada");
 		return elementArrow();
 	}
 }

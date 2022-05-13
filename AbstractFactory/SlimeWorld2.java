@@ -9,10 +9,11 @@ public class SlimeWorld2 extends Slime {
 	}
 
 	public StateType jumpAttack() {
-		return StateType.CONFUSED;
+		return StateType.POISONED;
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Salto Pantanoso");
 		return jumpAttack();
 	}
 }

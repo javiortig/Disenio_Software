@@ -13,6 +13,7 @@ public class SlimeWorld4 extends Slime {
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Salto Infinito");
 		return jumpAttack();
 	}
 }

@@ -13,6 +13,7 @@ public class SkeletonWorld4 extends Skeleton{
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Flecha Confusa");
 		return elementArrow();
 	}
 }

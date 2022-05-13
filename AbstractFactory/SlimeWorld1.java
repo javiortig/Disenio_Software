@@ -9,10 +9,11 @@ public class SlimeWorld1 extends Slime {
 	}
 
 	public StateType jumpAttack() {
-		return StateType.CONFUSED;
+		return StateType.BURNED;
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Salto Llameante");
 		return jumpAttack();
 	}
 }

@@ -9,10 +9,11 @@ public class ZombieWorld4 extends Zombie {
 	}
 
 	public StateType heavyBite() {
-		return StateType.POISONED;
+		return StateType.PARALYZED;
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Mordisco Paralizante");
 		return heavyBite();
 	}
 }

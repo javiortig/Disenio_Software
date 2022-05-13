@@ -13,6 +13,7 @@ public class SkeletonWorld1 extends Skeleton{
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Flecha Llameante");
 		return elementArrow();
 	}
 }

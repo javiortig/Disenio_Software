@@ -9,10 +9,11 @@ public class ZombieWorld1 extends Zombie {
 	}
 
 	public StateType heavyBite() {
-		return StateType.POISONED;
+		return StateType.BURNED;
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Zarpazo Ardiente");
 		return heavyBite();
 	}
 }

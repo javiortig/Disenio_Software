@@ -9,10 +9,11 @@ public class ZombieWorld3 extends Zombie {
 	}
 
 	public StateType heavyBite() {
-		return StateType.POISONED;
+		return StateType.FROZEN;
 	}
 
 	public StateType specialAttack() {
+		System.out.println("El enemigo ha usado el ataque: Mordisco Helado");
 		return heavyBite();
 	}
 }
