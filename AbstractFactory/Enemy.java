@@ -32,18 +32,30 @@ public abstract class Enemy {
 	}
 	
 	public final int attack() {
-		return attack;
+		this.defending = false;
+		this.dodging = false;
+		return this.attack;
 	}
 	
 	public final void defend() {
+		this.dodging = false;
 		this.defending = true;
 	}
 	
 	public final void dodge() {
+		this.defending = false;
 		Random rand = new Random();
 		if(rand.nextInt(100) < 5) {
 			this.dodging = true;
 		}
+	}
+	
+	public final int getAttack() {
+		return this.attack;
+	}
+	
+	public final int getHealth() {
+		return this.health;
 	}
 	
 	public float getDefense() {
